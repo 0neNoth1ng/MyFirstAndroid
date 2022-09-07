@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidObject/MyFirstAndroid/SimpleControl/src/main/res/layout/activity_button_style.xml" value="0.1" />
+        <entry key="..\:/AndroidObject/MyFirstAndroid/SimpleControl/src/main/res/layout/activity_grid_layout.xml" value="0.25" />
         <entry key="..\:/AndroidObject/MyFirstAndroid/SimpleControl/src/main/res/layout/activity_linear_layout.xml" value="0.18" />
         <entry key="..\:/AndroidObject/MyFirstAndroid/SimpleControl/src/main/res/layout/activity_main.xml" value="0.2930253623188406" />
         <entry key="..\:/AndroidObject/MyFirstAndroid/SimpleControl/src/main/res/layout/activity_reactivy_layout.xml" value="0.2930253623188406" />
         <entry key="..\:/AndroidObject/MyFirstAndroid/SimpleControl/src/main/res/layout/activity_relative_layout.xml" value="0.33" />
+        <entry key="..\:/AndroidObject/MyFirstAndroid/SimpleControl/src/main/res/layout/activity_scroll_view.xml" value="0.1" />
         <entry key="..\:/AndroidObject/MyFirstAndroid/SimpleControl/src/main/res/layout/activity_text_color.xml" value="0.2930253623188406" />
         <entry key="..\:/AndroidObject/MyFirstAndroid/SimpleControl/src/main/res/layout/activity_text_size.xml" value="0.2930253623188406" />
         <entry key="..\:/AndroidObject/MyFirstAndroid/SimpleControl/src/main/res/layout/activity_text_view.xml" value="0.2930253623188406" />
