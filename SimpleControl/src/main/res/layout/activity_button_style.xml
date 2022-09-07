@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ButtonStyleActivity"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下面按钮英文默认大写"
+        android:textColor="#CF5FFF"
+        android:textSize="17sp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is button"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下面按钮英文保持原状"
+        android:textColor="#CF5FFF"
+        android:textSize="17sp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is button"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="直接指定点击方法"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:onClick="doClick"/>
+
+    <TextView
+        android:id="@+id/tv_button_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间是："
+        android:textColor="#CF5FFF"
+        android:textSize="17sp"/>
+
+
+    <Button
+        android:id="@+id/button_listen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="监听的方法"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+
+    <Button
+        android:id="@+id/button_click_public"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="指定公共的点击时间监听"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
