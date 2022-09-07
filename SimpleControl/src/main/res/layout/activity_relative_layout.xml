@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#F0FFAD">
+
+    <TextView
+        android:id="@+id/tv_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#FFA2A2"
+        android:text="我在中间"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_horizontal_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#FFA2A2"
+        android:text="我在水平中间"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_vertical_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="#FFA2A2"
+        android:text="我在垂直中间"
+        android:textSize="17sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="#FFA2A2"
+        android:text="我在上级右边对齐"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_center"
+        android:layout_alignTop="@id/tv_center"
+        android:background="#91FFE5"
+        android:text="我在中间右边对齐"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_centerBelow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_center"
+        android:layout_alignLeft="@id/tv_center"
+        android:background="#91FFE5"
+        android:text="我在中间下面对齐"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_centerBelow"
+        android:layout_alignParentRight="true"
+        android:background="#91FFE5"
+        android:text="我在特殊地方对齐"
+        android:textSize="17sp" />
+</RelativeLayout>
