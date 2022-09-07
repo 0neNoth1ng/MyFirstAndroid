@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SimpleControl</string>
+    <string name="tv_hello">你好,世界!</string>
+</resources>

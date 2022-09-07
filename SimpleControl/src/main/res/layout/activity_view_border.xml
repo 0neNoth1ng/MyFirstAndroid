@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/OneNoth1ng"
+        android:text="视图宽高采用wrap——content定义"
+        android:textColor="#78F343"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/OneNoth1ng"
+        android:text="视图宽高采用match_parent定义"
+        android:textColor="#78F343"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/OneNoth1ng"
+        android:text="视图宽高采用固定dp定义"
+        android:textColor="#78F343"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_code_border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/OneNoth1ng"
+        android:text="通过代码指定视图"
+        android:textColor="#5EF61D"
+        android:textSize="17sp" />
+</LinearLayout>

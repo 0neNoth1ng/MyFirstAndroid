@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_code_system"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="代码设置系统自带的颜色"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_code_eight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="代码设置八位文字颜色"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_code_six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="代码设置六位文字颜色"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_xml_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="在xml里面设置的颜色"
+        android:textColor="#D485FF"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_values_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="在资源文件应用文字颜色(何成博色号)"
+        android:textColor="@color/OneNoth1ng"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_code_bgcolor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这个文字有背景色"
+        android:textColor="@color/white"
+        android:background="@color/OneNoth1ng"
+        android:textSize="17sp" />
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+

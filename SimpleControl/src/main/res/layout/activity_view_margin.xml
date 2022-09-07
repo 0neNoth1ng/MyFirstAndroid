@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--最外层的布局背景为蓝色-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#9EF1FF">
+
+    <!--第一个布局背景为紫色色-->
+    <LinearLayout
+        android:layout_width="151dp"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom"
+        android:gravity="bottom|right"
+        android:background="#BE8FFD">
+
+        <LinearLayout
+            android:layout_width="102dp"
+            android:layout_height="89dp"
+            android:background="#EC3E75" />
+    </LinearLayout>
+
+    <!--第二个视图背景为黄色色-->
+    <LinearLayout
+        android:layout_width="115dp"
+        android:layout_height="127dp"
+        android:layout_gravity="top"
+        android:gravity="right"
+        android:background="#BBEFFB3E">
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#EC3E75" />
+    </LinearLayout>
+
+</LinearLayout>
